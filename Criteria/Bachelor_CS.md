@@ -1,5 +1,6 @@
 # Selection Criteria for Bachelor of Computer Science
-- Must be South African University
-- Degree must be titled Computer Science, IT as a title will not be accepted
-- Must not require Physical Science as a requirement.
-- Exceptions can be made in exceptional cases such as extremely good international support or quality
+
+- Must be a South African university.
+- The degree title must be explicitly Computer Science; IT-related or non-matching titles will not be accepted.
+- The programme must not require Physical Science as a mandatory admission requirement.
+- Exceptions may be considered in rare cases where the university offers exceptional academic quality or strong international standing.

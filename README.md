@@ -1,14 +1,14 @@
 # University Database
 
-A database project for researching, comparing, and evaluating universities offering Computer Science degrees, postgraduate qualifications, and MBA programmes.
+A database project for researching, comparing, and evaluating universities offering Computer Science degrees, postgraduate qualifications, MBA programmes, and Financial Engineering degrees.
 
-The project aims to centralise university information and facilitate structured comparisons based on predefined academic, institutional, and personal selection criteria.
+The project aims to centralise university information and support structured comparisons based on predefined academic, institutional, and personal selection criteria.
 
 ## About
 
 This project is a collaborative effort between a group of technically inclined high-school leavers who share a common frustration with the lack of accessible, centralised, and transparent information surrounding university programmes and admissions.
 
-University applicants frequently encounter information asymmetry, fragmented programme information, unclear admission requirements, and seemingly arbitrary subject prerequisites that can unnecessarily restrict their academic options.
+University applicants frequently encounter information asymmetry, fragmented programme details, unclear admission requirements, and seemingly arbitrary subject prerequisites that can unnecessarily restrict their academic options.
 
 The objective is to address these issues by compiling, organising, and evaluating university information in a structured database, allowing prospective students to make better-informed academic decisions.
 
@@ -22,34 +22,39 @@ This project is a collaborative initiative between:
 
 **Organisational Partner**
 - [LunexCorp](https://github.com/LunexCorp)
-- Private organisation, represented by its founder, Christo Louwrens, and project partner.
-
-This is an independent collaborative initiative and is not affiliated with the universities represented in the database.
+- A private organisation represented by its founder, Christo Louwrens, and project partner.
 
 This is an independent collaborative initiative and is not affiliated with the universities represented in the database.
 
 ## Selection Criteria
 
-- Selection criteria can be found for each table in the criteria directory.
-- If you are a student or staff at a Univiersity and want to reply or object to something feel free to open an issue. We dont bite :)
+- Selection criteria for each database table can be found in the [Criteria](./Criteria) directory.
+- If you are a student, staff member, or representative of a university and would like to respond to or challenge an entry, please feel free to open an issue. We welcome constructive feedback.
 
 Additional selection criteria may be introduced as the project develops.
 
 ## Research
 
-- In /Reports we organise our collective research for each institution to justify its ranking in the database.
-- If we missed something , feel free to create an issue in the issues page.
-- If you are student or staff at a University and would like to reply , also see the issues page.
+- Research notes for each institution are organised in the [Reports](./Reports) directory to support the ranking and evaluation process.
+- If something appears missing or inaccurate, please feel free to open an issue.
+- If you are a student or staff member at a university and would like to respond, please also use the issues page.
 
 ## Project Structure
 
 ```text
 .
 ├── LICENSE
-├── .gitignore
 ├── README.md
 ├── planning.txt
-└── uni_db.accdb
+├── uni_db.accdb
+├── Criteria/
+│   ├── Bachelor_CS.md
+│   ├── BHon_CS.md
+│   ├── MBA.md
+│   ├── MSc_CS.md
+│   └── MFE.md
+├── Reports/
+└── .gitignore
 ```
 
 ## Database
@@ -60,11 +65,11 @@ The database is currently implemented using **Microsoft Access** (`.accdb`).
 
 | Table | Description |
 |---|---|
-| `tbl_CS_Masters` | International Universities offering relevant Computer Science master's programmes. |
-| `tbl_honours` | South African Universities offering Computer Science honours programmes. |
-| `tbl_MBA` | International Universities offering MBA programmes. |
-| `tbl_undergrad` | South African Universities offering BSc Computer Science undergraduate programmes. |
-|`tbl_MFE` | International Universities offering Financial Engineering degrees|
+| `tbl_CS_Masters` | International universities offering relevant Computer Science master's programmes. |
+| `tbl_honours` | South African universities offering Computer Science honours programmes. |
+| `tbl_MBA` | International universities offering MBA programmes. |
+| `tbl_undergrad` | South African universities offering BSc Computer Science undergraduate programmes. |
+| `tbl_MFE` | International universities offering Financial Engineering degrees. |
 
 Additional tables, relationships, and fields may be introduced as the database develops.
 
@@ -93,7 +98,7 @@ The database is intended to support more detailed comparisons using predefined s
 
 ## Project Status
 
-**Work in progress — Early development.**
+**Work in progress — early development.**
 
 This project is actively being developed. The current database represents an initial foundation rather than a completed or comprehensive university directory.
 
