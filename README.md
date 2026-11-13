@@ -4,6 +4,38 @@ A database project for researching, comparing, and evaluating universities offer
 
 The project aims to centralise university information and facilitate structured comparisons based on predefined academic, institutional, and personal selection criteria.
 
+## About
+
+This project is a collaborative effort between a group of technically inclined high-school leavers who share a common frustration with the lack of accessible, centralised, and transparent information surrounding university programmes and admissions.
+
+University applicants frequently encounter information asymmetry, fragmented programme information, unclear admission requirements, and seemingly arbitrary subject prerequisites that can unnecessarily restrict their academic options.
+
+The objective is to address these issues by compiling, organising, and evaluating university information in a structured database, allowing prospective students to make better-informed academic decisions.
+
+### Project Partners & Contributors
+
+This project is a collaborative initiative between:
+
+**Individual Contributors**
+- **Janco Nel** — Project founder and contributor.
+- **Christo Louwrens** — Project contributor and founder/owner of LunexCorp.
+
+**Organisational Partner**
+- **LunexCorp** — Private organisation, represented by its founder, Christo Louwrens, and project partner.
+
+This is an independent collaborative initiative and is not affiliated with the universities represented in the database.
+
+This is an independent collaborative initiative and is not affiliated with the universities represented in the database.
+
+## Selection Criteria
+
+The initial undergraduate selection criteria are:
+
+- Must offer a **BSc Computer Science** degree, rather than Information Technology or another related qualification. The focus is on Computer Science as a distinct academic discipline.
+- Must not require Physical Sciences as a prerequisite for admission with a South African National Senior Certificate (NSC).
+
+Additional selection criteria may be introduced as the project develops.
+
 ## Project Structure
 
 ```text
@@ -51,10 +83,16 @@ The database is intended to support more detailed comparisons using predefined s
 
 - **Database:** Microsoft Access
 - **Planned management application:** Delphi
+- **Database connectivity:** FireDAC
 
 ## Project Status
 
-<escape>**Work in progress.**</escape>
+**Work in progress — Early development.**
 
-The database is incomplete and actively being developed. Information, rankings, and selection criteria are subject to change.
+This project is actively being developed. The current database represents an initial foundation rather than a completed or comprehensive university directory.
 
+Records, rankings, selection criteria, and database architecture are subject to ongoing revision and expansion.
+
+Information is intended to assist with academic research and university selection. Admission requirements and programme details should always be verified against official university sources before making application decisions.
+
+Contributions, corrections, and suggestions are welcome as the project evolves.
