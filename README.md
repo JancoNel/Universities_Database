@@ -71,6 +71,8 @@ The database is currently implemented using **Microsoft Access** (`.accdb`).
 | `tbl_undergrad` | South African universities offering BSc Computer Science undergraduate programmes. |
 | `tbl_MFE` | International universities offering Financial Engineering degrees. |
 
+All programme tables share fields for the university ID and name, degree title, country, location, delivery mode, duration, entry requirements, ranking, and an official source URL. The undergraduate and honours tables retain their existing programme-specific fields, such as mathematics, APS, and bachelor's-degree scores. Fields may be left blank when information has not been verified.
+
 Additional tables, relationships, and fields may be introduced as the database develops.
 
 ## Ranking System
