@@ -56,10 +56,11 @@ The database is currently implemented using **Microsoft Access** (`.accdb`).
 
 | Table | Description |
 |---|---|
-| `tbl_CS_Masters` | Universities offering relevant Computer Science master's programmes. |
-| `tbl_honours` | Universities offering Computer Science honours programmes. |
-| `tbl_MBA` | Universities offering MBA programmes. |
-| `tbl_undergrad` | Universities offering BSc Computer Science undergraduate programmes. |
+| `tbl_CS_Masters` | International Universities offering relevant Computer Science master's programmes. |
+| `tbl_honours` | South African Universities offering Computer Science honours programmes. |
+| `tbl_MBA` | International Universities offering MBA programmes. |
+| `tbl_undergrad` | South African Universities offering BSc Computer Science undergraduate programmes. |
+|`tbl_MFE` | International Universities offering Financial Engineering degrees|
 
 Additional tables, relationships, and fields may be introduced as the database develops.
 
