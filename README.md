@@ -18,10 +18,11 @@ This project is a collaborative initiative between:
 
 **Individual Contributors**
 - **Janco Nel** — Project founder and contributor.
-- **Christo Louwrens** — Project contributor and founder/owner of LunexCorp.
+- **Christo Louwrens** — Project contributor and founder/owner of [LunexCorp](https://github.com/LunexCorp).
 
 **Organisational Partner**
-- **LunexCorp** — Private organisation, represented by its founder, Christo Louwrens, and project partner.
+- **[LunexCorp](https://github.com/LunexCorp).
+** — Private organisation, represented by its founder, Christo Louwrens, and project partner.
 
 This is an independent collaborative initiative and is not affiliated with the universities represented in the database.
 
