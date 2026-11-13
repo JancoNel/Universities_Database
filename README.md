@@ -30,12 +30,16 @@ This is an independent collaborative initiative and is not affiliated with the u
 
 ## Selection Criteria
 
-The initial undergraduate selection criteria are:
-
-- Must offer a **BSc Computer Science** degree, rather than Information Technology or another related qualification. The focus is on Computer Science as a distinct academic discipline.
-- Must not require Physical Sciences as a prerequisite for admission with a South African National Senior Certificate (NSC).
+- Selection criteria can be found for each table in the criteria directory.
+- If you are a student or staff at a Univiersity and want to reply or object to something feel free to open an issue. We dont bite :)
 
 Additional selection criteria may be introduced as the project develops.
+
+## Research
+
+- In /Reports we organise our collective research for each institution to justify its ranking in the database.
+- If we missed something , feel free to create an issue in the issues page.
+- If you are student or staff at a University and would like to reply , also see the issues page.
 
 ## Project Structure
 
